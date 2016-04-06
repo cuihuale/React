@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>React 第一个实例</title>
+	<!-- React 的核心库 -->
+	<script src="react.min.js"></script>    
+	<!-- 提供DOM相关功能 -->
+	<script src="react-dom.min.js"></script>
+	<!-- 用于将JSX语法转化为JS语法 -->
+	<script src="browser.min.js"></script>
+</head>
+<body>
+	<div id="ex"></div>
+	<script type="text/babel">                       //使用JSX，type="text/babel"
+	     ReactDOM.render(
+	     	<h3>My First Example!</h3>,              // “，”间隔
+	     	document.getElementById("ex")            //最后无符号
+	     	);
+	</script>
+</body>
+</html>
